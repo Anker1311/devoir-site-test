@@ -1,0 +1,147 @@
+.presentation-contenu{
+    display: flex;
+    justify-content:space-around;
+}
+body{
+    display: block;
+    margin: 0;   
+}
+
+header{
+    height: 100px;
+    width: 100%;
+}
+
+#barre{
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 55;
+    top: 0px;
+    background-color: black;
+}
+#promotion{
+    overflow: hidden;
+    position: relative;
+    background: url(helldivers-2-melee-weapons-gun-bash-killer-01.webp);
+        max-height: 100%;
+        width: auto;
+}
+.infos{
+    width: 50%;
+    height: 700px;
+    margin-top: 100px;
+    margin-right: 50px;
+    padding: 25px;
+    float: right;
+    text-align: center;
+    background-color:hsla(300, 1%, 63%, 0.7)
+}
+.titre{
+    padding: 50px;
+    padding-bottom: 25px;
+font-size:xx-large;
+}
+.salutations{
+    padding: 50px;
+    padding-top: 25px;
+    font-size:xx-large;
+}
+.message{
+    padding: 25px;
+    padding-top: 200px;
+    font-size: medium;
+}
+
+
+.bloc-1{
+    height: 100px;
+    width: auto;
+    float: left;
+    align-items: center;
+    img{
+        max-height: 100%;
+        width: auto;
+    }
+}
+
+.bloc-5{
+    height: 100px;
+    width: 100%; 
+    text-align: center;
+    img{
+        max-height: 100%;
+        width: auto;
+    }  
+}
+.miniatures{
+    width: 50%;
+    height: auto;
+    padding: 100px;
+    text-align: center;
+    .bloc-2{
+        height: 200px;
+        width: 100%;
+        text-align: center;
+        .texte-1{
+            height: 110px;
+            width: 350px;
+            padding: 10px;
+            padding-left: 335px;
+            padding-top: 80px;
+            background-color:hsla(300, 1%, 63%, 0.7)
+        }
+        img{
+            max-height: 100%;
+            width: auto;
+            float: left;
+        }
+    }
+    .bloc-3{
+        height: 200px;
+        width: 100%;
+        text-align: center;
+        .texte-2{
+            height: 110px;
+            width: 350px;
+            padding: 10px;
+            padding-left: 335px;
+            padding-top: 80px;
+            background-color:hsla(300, 1%, 63%, 0.7)
+        }
+        img{
+            max-height: 100%;
+            width: auto;
+            float: left;
+        }
+    }
+        .bloc-4{
+            height: 200px;
+            width: 100%;
+        text-align: center;
+        .texte-3{
+            height: 110px;
+            width: 350px;
+            padding: 10px;
+            padding-left: 335px;
+            padding-top: 80px;
+            background-color:hsla(300, 1%, 63%, 0.7)
+        }
+        img{
+            max-height: 100%;
+            width: auto;
+            float: left;
+        }
+        }
+    }
+
+@media screen and (max-width: 1100px){
+      .bloc-2, .bloc-3, .bloc-4{
+        width: 70%;
+      }
+    }
+@media screen and (max-width: 1100px){
+        .bloc-2, .bloc-3, .bloc-4{
+          width: 100%;
+        }  
+    }

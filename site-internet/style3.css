@@ -1,0 +1,90 @@
+
+.presentation-contenu{
+    display: flex;
+    justify-content:space-around;
+}
+body{
+    display: block;
+    margin: 0;   
+}
+
+header{
+    height: 100px;
+    width: 100%;
+}
+
+#barre{
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 55;
+    top: 0px;
+    background-color: black;
+}
+#promotion{
+    overflow: hidden;
+    position: relative;
+    background: url(fusil\ à\ pompe.jpg);
+        max-height: 100%;
+        width: auto;
+}
+
+
+.bloc-1{
+    height: 100px;
+    width: auto;
+    float: left;
+    align-items: center;
+    img{
+        max-height: 100%;
+        width: auto;
+    }
+}
+
+.bloc-5{
+    height: 100px;
+    width: 100%; 
+    text-align: center;
+    img{
+        max-height: 100%;
+        width: auto;
+    }  
+}
+
+.bloc-2{
+    height: 400px;
+    text-align: center;
+    .texte-1{
+        font-size: xx-large;
+        .stats{
+            font-size: larger;
+        }
+        .type{
+            font-size:x-large;
+            padding-top: 0px;
+            padding-bottom: 25px;
+
+        }
+        height: 700px;
+        width: 100%;
+        padding-top: 50px;
+        background-color:hsla(300, 1%, 63%, 0.7)
+    }
+    img{
+        height: 100%;
+        width: auto;
+        padding: 25px;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1100px){
+      .bloc-2, .bloc-3, .bloc-4{
+        width: 70%;
+      }
+    }
+@media screen and (max-width: 1100px){
+        .bloc-2, .bloc-3, .bloc-4{
+          width: 100%;
+        }  
+    }
